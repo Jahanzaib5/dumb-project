@@ -3,9 +3,6 @@ import "./style.css";
 import {
   Navbar,
   Nav,
-  NavDropdown,
-  Form,
-  FormControl,
   Button,
 } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -40,14 +37,14 @@ class Navigation extends Component {
           
           <p><FontAwesomeIcon icon={faPhone} />  +996-777 438 662</p>
         </div>
-        <div className="container">
+        <div className="container" style={{border:'1px solid red'}}>
           <Navbar expand="lg" className="hello">
             <Navbar.Brand href="#home">Logo Here</Navbar.Brand>
             <Navbar.Toggle />
             <Navbar.Collapse>
               <Nav className="ml-auto">
                 <Nav.Item className="nada">
-                  <Nav.Link href="#">
+                  <Nav.Link href="Aboutus">
                     <p>AboutUs</p>
                   </Nav.Link>
                 </Nav.Item>
