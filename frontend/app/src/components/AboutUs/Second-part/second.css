@@ -1,0 +1,30 @@
+.change {
+  /*border: 1px solid red;
+  background: #2193b0;
+  background: -webkit-linear-gradient(
+    to right,
+    #6dd5ed,
+    #2193b0
+  );  Chrome 10-25, 
+  background: linear-gradient(
+    to right,
+    #6dd5ed,
+    #2193b0
+  ); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  margin-top: 8%;
+  margin-bottom: 5%;
+}
+
+.change h1 {
+  font-size: 52.6px;
+  font-weight: 645;
+  color: #46aaff;
+  margin-top: 13%;
+}
+
+.change p {
+  margin-top: 5%;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 25px;
+}

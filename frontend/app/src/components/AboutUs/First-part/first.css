@@ -1,16 +1,32 @@
-.container {
+.containers {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
     "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
-.container h1{
+
+.containers h1{
   font-size: 52.6px;
+  font-weight: 645;
 }
 
-.container p{
+.containers p{
   margin-top: 5%;
-  font-size: 20px;
-  font-weight: 450;
-  line-height: 27px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 25px;
+}
+
+.containers Button{
+  background-color: #46aaff;
+  color:#fff;
+  font-size: 15px;
+  font-display: black;
+  font-weight: 600;
+  border: 1px solid #46aaff;
+}
+
+.containers Button:hover{
+  background-color: #fff;
+  color: #46aaff;
 }

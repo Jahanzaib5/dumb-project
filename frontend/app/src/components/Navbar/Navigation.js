@@ -11,7 +11,7 @@ import { faPhone } from "@fortawesome/free-solid-svg-icons";
 class Navigation extends Component {
   componentDidMount() {
     window.addEventListener("scroll", () => {
-      const isTop = window.scrollY > 38;
+      const isTop = window.scrollY > 20;
       //console.log(window.scrollY);
       //console.log(isTop);
       const nav = document.getElementById("nav");
@@ -37,7 +37,7 @@ class Navigation extends Component {
           
           <p><FontAwesomeIcon icon={faPhone} />  +996-777 438 662</p>
         </div>
-        <div className="container" style={{border:'1px solid red'}}>
+        <div className="container">
           <Navbar expand="lg" className="hello">
             <Navbar.Brand href="#home">Logo Here</Navbar.Brand>
             <Navbar.Toggle />
@@ -45,22 +45,22 @@ class Navigation extends Component {
               <Nav className="ml-auto">
                 <Nav.Item className="nada">
                   <Nav.Link href="Aboutus">
-                    <p>AboutUs</p>
+                    <p>about-us</p>
                   </Nav.Link>
                 </Nav.Item>
                 <Nav.Item className="nada">
                   <Nav.Link href="#">
-                    <p>Courses</p>
+                    <p>courses</p>
                   </Nav.Link>
                 </Nav.Item>
                 <Nav.Item className="nada">
                   <Nav.Link href="#">
-                    <p>Login</p>
+                    <p>login</p>
                   </Nav.Link>
                 </Nav.Item>
                 <Nav.Item className="nada er">
                   <Nav.Link href="#">
-                    <Button variant="outline-info">Register</Button>{" "}
+                    <Button variant="outline-info">register</Button>{" "}
                   </Nav.Link>
                 </Nav.Item>
               </Nav>
