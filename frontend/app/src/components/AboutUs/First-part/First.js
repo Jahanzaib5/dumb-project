@@ -18,7 +18,7 @@ export default class LearMore extends Component {
             <h1
               style={{ color: "#2699fb", fontSize: "45px", marginTop: "-2%" }}
             >
-              D.U.M.B Project 2020
+              D.U.M.B project 2020
             </h1>
             <p>
               DUMB is a project with vast directions mainly focused on

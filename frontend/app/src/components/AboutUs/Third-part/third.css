@@ -1,0 +1,16 @@
+.morechanges{
+    margin-top: 10%;
+    margin-bottom: 4%;
+}
+
+.morechanges h1 {
+  font-size: 52.6px;
+  font-weight: 645;
+}
+
+.morechanges p {
+  margin-top: 5%;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 25px;
+}
