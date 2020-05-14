@@ -6,6 +6,22 @@
   color: #fff;
 }
 
+.footer ul{
+    text-decoration: none;
+    list-style-type: none;
+    text-align: left;
+    color: white;
+    margin-top: 5%;
+
+}
 .footer ul li{
     text-decoration: none;
+    color: white;
+    margin-left: -10%;
+    margin-top: 2%;
+}
+
+.footer ul li a{
+    color: #fff;
+    font-size: 20px;
 }

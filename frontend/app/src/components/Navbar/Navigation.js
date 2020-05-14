@@ -7,6 +7,8 @@ import {
 } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPhone } from "@fortawesome/free-solid-svg-icons";
+import Image from "react-bootstrap/Image";
+import Logo from "./logo2.jpg";
 
 class Navigation extends Component {
   componentDidMount() {
@@ -39,7 +41,7 @@ class Navigation extends Component {
         </div>
         <div className="container">
           <Navbar expand="lg" className="hello">
-            <Navbar.Brand href="/">Logo Here</Navbar.Brand>
+            <Navbar.Brand href="/"><Image style={{marginTop:'-13%', marginBottom:'-10%'}} src={Logo} height="50" width="70" alt="Picture"/></Navbar.Brand>
             <Navbar.Toggle />
             <Navbar.Collapse>
               <Nav className="ml-auto">
