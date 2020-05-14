@@ -39,7 +39,7 @@ class Navigation extends Component {
         </div>
         <div className="container">
           <Navbar expand="lg" className="hello">
-            <Navbar.Brand href="#home">Logo Here</Navbar.Brand>
+            <Navbar.Brand href="/">Logo Here</Navbar.Brand>
             <Navbar.Toggle />
             <Navbar.Collapse>
               <Nav className="ml-auto">
@@ -49,7 +49,7 @@ class Navigation extends Component {
                   </Nav.Link>
                 </Nav.Item>
                 <Nav.Item className="nada">
-                  <Nav.Link href="#">
+                  <Nav.Link href="courses">
                     <p>courses</p>
                   </Nav.Link>
                 </Nav.Item>

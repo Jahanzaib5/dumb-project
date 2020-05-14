@@ -1,0 +1,11 @@
+.footer {
+  border: 1px solid red;
+  border: 1px solid red;
+  background: -webkit-linear-gradient(to right, #46aaff, #86beee);
+  background: linear-gradient(to right,  #46aaff, #86beee);
+  color: #fff;
+}
+
+.footer ul li{
+    text-decoration: none;
+}

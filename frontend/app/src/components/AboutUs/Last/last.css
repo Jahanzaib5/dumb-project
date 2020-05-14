@@ -1,0 +1,33 @@
+.last {
+  text-align: center;
+  margin-top: 10%;
+  margin-bottom: 5%;
+}
+
+.last h1 {
+  font-size: 52.6px;
+  font-weight: 645;
+  color: #46aaff;
+}
+
+.last p {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 25px;
+  margin-top: 1%;
+  margin-bottom: 2%;
+}
+
+.last Button {
+  background-color: #46aaff;
+  color: #fff;
+  font-size: 15px;
+  font-display: black;
+  font-weight: 600;
+  border: 1px solid #46aaff;
+}
+
+.last Button:hover {
+  background-color: #fff;
+  color: #46aaff;
+}
