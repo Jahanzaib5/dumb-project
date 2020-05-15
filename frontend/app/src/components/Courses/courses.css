@@ -1,0 +1,34 @@
+.course h1 {
+  font-size: 52.6px;
+  font-weight: 645;
+  color: #46aaff;
+  text-align: center;
+}
+
+.course Col {
+  border: 1px solid red;
+}
+
+.course Button {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 600;
+  border: 1px solid #46aaff;
+  background-color: #46aaff;
+}
+
+.course Button:hover {
+  background-color: #fff;
+  border-color: #46aaff;
+  color: #46aaff;
+}
+
+.course .cards{
+    transition: 0.4s ease;
+}
+
+.course .cards:hover {
+  -webkit-box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.4);
+  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.4);
+}
