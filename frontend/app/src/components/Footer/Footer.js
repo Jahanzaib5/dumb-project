@@ -1,51 +1,112 @@
 import React, { Component } from "react";
 import { Container, Row, Col } from "reactstrap";
 import "./footer.css";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faInstagram } from "@fortawesome/free-solid-svg-icons";
+import {
+  FaInstagram,
+  FaFacebook,
+  FaTwitter,
+  FaYoutube,
+  FaMapMarkerAlt,
+  FaPhoneAlt,
+  FaEnvelope,
+} from "react-icons/fa";
 
 export default class Footer extends Component {
   render() {
     return (
       <div className="footer">
-        <Container style={{marginTop:'2%'}}>
+        <Container>
           <Row>
-            <Col xs={12} md={7}>
-              <h1>Footer will be here</h1>
+            <Col xs={12} md={7} style={{marginTop:'3%'}}>
+              <h1>need help choosing the right package?</h1>
+              <h2 style={{ marginBottom: "5%" }}>contact us now!</h2>
+              <p style={{ fontSize: "18px" }}>
+                <FaMapMarkerAlt
+                  style={{ marginRight: "1%", marginTop: "-1%" }}
+                />
+                310 Lenin Street Naryn, 722918 Kyrgyzstan
+              </p>
+              <p style={{ marginTop: "-2%" }}>
+                <FaPhoneAlt /> +996-777 438 662
+              </p>
+              <p style={{ marginTop: "-2%" }}>
+                <FaEnvelope /> dumb-2021@gmail.com
+              </p>
             </Col>
-            <Col xs={6} md={3}>
-              <h2 style={{marginBottom:'8%'}}>site map</h2>
+            <Col xs={6} md={3} style={{marginTop:'4%'}}>
+              <h2 style={{ marginBottom: "8%" }}>site map</h2>
               <ul>
-                  <li>
-                      <a href="#">about us</a>  
-                  </li>
-                  <li>
-                      <a href="#">blog</a>  
-                  </li>
-                  <li>
-                      <a href="#">courses</a>  
-                  </li>
-                  <li>
-                      <a href="#">faqs</a>  
-                  </li>
-                  <li>
-                      <a href="#">terms and services</a>  
-                  </li>
-                  <li>
-                      <a href="#">privacy policy</a>  
-                  </li>
+                <li>
+                  <a href="#">about us</a>
+                </li>
+                <li>
+                  <a href="#">blog</a>
+                </li>
+                <li>
+                  <a href="#">courses</a>
+                </li>
+                <li>
+                  <a href="#">faqs</a>
+                </li>
+                <li>
+                  <a href="#">terms and services</a>
+                </li>
+                <li>
+                  <a href="#">privacy policy</a>
+                </li>
               </ul>
             </Col>
-            <Col xs={6} md={2}>
-              <h2>social links</h2>
-              <ul>
-                  <li>
-                      <a href="#"></a>
-                  </li>
+            <Col xs={6} md={2} style={{marginTop:'4%'}}>
+              <h2 style={{ marginBottom: "15%" }}>social links</h2>
+              <ul className>
+                <li style={{ marginBottom: "15%" }}>
+                  <a href="#">
+                    <FaInstagram size="2rem" />
+                  </a>
+                </li>
+                <li style={{ marginBottom: "15%" }}>
+                  <a href="#">
+                    <FaFacebook size="2rem" />
+                  </a>
+                </li>
+                <li style={{ marginBottom: "15%" }}>
+                  <a href="#">
+                    <FaTwitter size="2rem" />
+                  </a>
+                </li>
+                <li style={{ marginBottom: "15%" }}>
+                  <a href="">
+                    <FaYoutube size="2rem" />
+                  </a>
+                </li>
               </ul>
             </Col>
           </Row>
           <hr />
+          <Row className="last-one">
+            <Col xs={12} md={12}>
+              <h5>Coutries we cover:</h5>
+            </Col>
+            <Col xs={2} md={3}>
+              <p>Kyrgyzstan</p>
+              <p>Pakistan</p>
+            </Col>
+            <Col xs={2} md={3}>
+              <p>Kazakhstan</p>
+              <p>Uzbekistan</p>
+            </Col>
+            <Col xs={2} md={3}>
+              <p>Tajikistan</p>
+              <p>Kenya</p>
+            </Col>
+            <Col xs={2} md={3}>
+              <p>Russia</p>
+              <p>Turkmenistan</p>
+            </Col>
+            <Col xs={12} md={12} style={{textAlign:'center', marginTop:'3%', marginBottom:'0.5%'}}>
+              <p style={{fontSize:'15px', color:'#fff'}}>power and designed by d.u.m.b project | all rights reserverd &copy; 2020</p>
+            </Col>
+          </Row>
         </Container>
       </div>
     );

@@ -1,8 +1,6 @@
 .footer {
-  border: 1px solid red;
-  border: 1px solid red;
-  background: -webkit-linear-gradient(to right, #46aaff, #86beee);
-  background: linear-gradient(to right,  #46aaff, #86beee);
+  background: -webkit-linear-gradient(to right, #46aaff, #7ec1fc);
+  background: linear-gradient(to right,  #46aaff, #7ec1fc);
   color: #fff;
 }
 
@@ -17,11 +15,16 @@
 .footer ul li{
     text-decoration: none;
     color: white;
-    margin-left: -10%;
+    margin-left: -16%;
     margin-top: 2%;
 }
 
 .footer ul li a{
     color: #fff;
     font-size: 20px;
+}
+
+.footer .last-one p{
+    font-size: 13px;
+    line-height: 4px;
 }
