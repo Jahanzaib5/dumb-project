@@ -51,7 +51,7 @@ class Navigation extends Component {
                   </Nav.Link>
                 </Nav.Item>
                 <Nav.Item className="nada">
-                  <Nav.Link href="courses">
+                  <Nav.Link href="Courses">
                     <p>courses</p>
                   </Nav.Link>
                 </Nav.Item>
