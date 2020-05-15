@@ -84,26 +84,7 @@ export default class Footer extends Component {
           </Row>
           <hr />
           <Row className="last-one">
-            <Col xs={12} md={12}>
-              <h5>Coutries we cover:</h5>
-            </Col>
-            <Col xs={2} md={3}>
-              <p>Kyrgyzstan</p>
-              <p>Pakistan</p>
-            </Col>
-            <Col xs={2} md={3}>
-              <p>Kazakhstan</p>
-              <p>Uzbekistan</p>
-            </Col>
-            <Col xs={2} md={3}>
-              <p>Tajikistan</p>
-              <p>Kenya</p>
-            </Col>
-            <Col xs={2} md={3}>
-              <p>Russia</p>
-              <p>Turkmenistan</p>
-            </Col>
-            <Col xs={12} md={12} style={{textAlign:'center', marginTop:'3%', marginBottom:'0.5%'}}>
+            <Col xs={12} md={12} style={{textAlign:'center', marginTop:'1%', marginBottom:'1%'}}>
               <p style={{fontSize:'15px', color:'#fff'}}>power and designed by d.u.m.b project | all rights reserverd &copy; 2020</p>
             </Col>
           </Row>
