@@ -28,9 +28,7 @@ class Navigation extends Component {
     });
   }
 
-  componentWillUnount() {
-    window.removeEventListener("scroll");
-  }
+
 
   render() {
     return (

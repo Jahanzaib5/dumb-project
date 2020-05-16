@@ -6,7 +6,7 @@ import Img from "./img1.png"
 class logIn extends Component{
     render() {
         return(
-            <div className='split'>
+            <div className='container split'>
                 <div className='box1 left'>
                     <div className='centerL' id='left'>
                         <div>
@@ -47,4 +47,4 @@ class logIn extends Component{
     }
 }
 
-export default logIn
+export default logIn;
