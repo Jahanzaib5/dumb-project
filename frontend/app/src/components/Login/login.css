@@ -68,4 +68,12 @@ a {
     .split{
         height: 150vh;
     }
+    .centerL {
+        top: 60%;
+        left: 0;
+        transform: translate(0, -50%);
+        text-align: center;
+        padding-left: 10%;
+    }
+    
 }
