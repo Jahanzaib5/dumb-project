@@ -21,7 +21,7 @@ class logIn extends Component{
                             <form action="">
                                 <div id='inputs'>
                                     <input type="text" placeholder='Name or Email'/><br/>
-                                    <input type="text" placeholder='Password'/>
+                                    <input type="password" placeholder='Password'/>
                                 </div>
                                 <div id='submit'>
                                     <button type="button">Submit</button>
@@ -32,7 +32,7 @@ class logIn extends Component{
                         <div>
                             <p style={{display:"flex", alignItems:"baseline"}}>
                                 Don't have an account?
-                                <Nav.Link href="#SignUp">Sign up</Nav.Link>
+                                <Nav.Link href="Register">Sign up</Nav.Link>
                             </p>
                         </div>
                     </div>

@@ -5,7 +5,8 @@ import AboutUs from './components/AboutUs/AboutUs';
 import Footer from './components/Footer/Footer';
 import Home from "./components/Home/Home";
 import Courses from './components/Courses/Courses';
-import Login from './components/Login/Login'
+import Login from './components/Login/Login';
+import Register from './components/Register/Register';
 
 
 class App extends Component {
@@ -19,6 +20,7 @@ class App extends Component {
             <Route path="/Aboutus" component={AboutUs}/>
             <Route path="/Courses" component={Courses}/>
             <Route path="/Login" component={Login}/>
+            <Route path="/Register" component={Register}/>
           </Switch>
         </Router>
         <Footer/>

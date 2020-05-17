@@ -1,0 +1,35 @@
+.register{
+    margin-bottom: 3%;
+}
+.register input[type="text"],
+input[type="password"],
+input[type="email"] {
+  margin-top: 20px;
+  height: 50px;
+  width: 90%;
+  border: 1px solid rgb(124, 123, 123);
+}
+
+
+.register h3{
+    margin-top: 2%;
+    color: #46aaff;
+}
+
+.register h5{
+    margin-bottom: 7%;
+}
+
+.register Button {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    border: 1px solid #46aaff;
+    background-color: #46aaff;
+  }
+  
+  .register Button:hover {
+    background-color: #fff;
+    border-color: #46aaff;
+    color: #46aaff;
+  }

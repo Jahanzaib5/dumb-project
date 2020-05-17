@@ -59,7 +59,7 @@ class Navigation extends Component {
                   </Nav.Link>
                 </Nav.Item>
                 <Nav.Item className="nada er">
-                  <Nav.Link href="#">
+                  <Nav.Link href="Register">
                     <Button variant="outline-info">register</Button>{" "}
                   </Nav.Link>
                 </Nav.Item>
