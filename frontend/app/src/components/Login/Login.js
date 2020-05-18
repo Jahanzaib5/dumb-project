@@ -37,7 +37,7 @@ class logIn extends Component{
                         </div>
                     </div>
                 </div>
-                <div class='box2 right'>
+                <div className='box2 right'>
                     <div class='centerR' id="right">
                         <Image src= {Img} alt="photo"style={{maxWidth:"100%"}}/>
                     </div>

@@ -29,15 +29,14 @@ export default class Register extends Component {
               <Form.Group controlId="formBasicText">
                 <Form.Control type="text" placeholder="First Name" />
               </Form.Group>
-              <Form.Group controlId="formBasicText">
-                <Form.Control type="text" placeholder="Mobile Number" />
-              </Form.Group>
               <Form.Group controlId="formBasicEmail">
                 <Form.Control type="email" placeholder="Email address" />
               </Form.Group>
-
               <Form.Group controlId="formBasicPassword">
                 <Form.Control type="password" placeholder="Password" />
+              </Form.Group>
+              <Form.Group controlId="formBasicPassword">
+                <Form.Control type="password" placeholder="Confirm Password" />
               </Form.Group>
               <Button variant="primary" type="submit">
                 register
