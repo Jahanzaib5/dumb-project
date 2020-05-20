@@ -1,0 +1,68 @@
+/* Icons Css */
+.sticky_icons{
+    background-color: #fff;
+    border-left: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    padding: 1rem .75rem;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 206px;
+    float: right;
+    z-index: 99;
+  }
+  .sticky_icons .list-unstyled {
+    padding-left: 0px;
+    list-style: none;
+  }
+  
+  .sticky_icons .list-unstyled dl, ol, ul {
+    margin-top: 0px;
+    margin-bottom: 1rem;
+  }
+  *, ::after, ::before {
+    box-sizing: border-box;
+  }
+  
+  /* ------------------------------------------------- */
+  /* ---------------Banner Css */
+  .banner-section .container{
+      color: white;
+      
+  }
+  .banner-section h1{
+    font-size: 52.6px;
+    font-weight: 645;
+    color: #46aaff;
+    text-align: start;
+  }
+  .banner-section h3{
+    font-size: 21.3px;
+    font-weight: 322;
+  }
+  
+  .banner-section a{
+    color:white;
+    font-size: 16px;
+    font-weight: 700;
+    border: 1px solid #00ffc8;
+    background-color: #00ffc8;
+  }
+  
+  .banner-section a:hover {
+    background-color: #fff;
+    border-color:#00ffc8;
+    color:#00ffc8;
+  }
+  .banner-section .imgBanner{
+  
+  }
+  .banner-secion .imglogos{
+  }
+
+
+  /* --------------------------------------------------- */
+
+  
