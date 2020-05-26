@@ -1,0 +1,86 @@
+.container .row{
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.container .row .col-md-6 .position-relative .img{
+    vertical-align: middle;
+    border-style: none;
+
+
+}
+.container .row .col-md-6 .position-relative .img-fluid{
+    max-width: 100%;
+    height: auto; 
+}
+.container .row .col-md-6 .position-relative .img-fluid a{
+    color:#007bff;
+    text-decoration: none;
+    background-color: transparent;
+
+}
+.container .row .col-md-6 .position-relative .play_icon{
+    height: 180px;
+    width: 180px;
+    position: absolute;
+    left: 45%;
+    margin-left: -50px;
+    top: 50%;
+    margin-top: -50px;
+
+}
+.container .row .my-auto{
+    margin-top: auto ! important;
+    margin-bottom: auto ! important;
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.container .row .my-auto .title .text-purple{
+    color:#09216c;
+    font-size:52.6px;
+    font-weight:645;
+    
+}
+.container .row .my-auto .title .text-blue{
+    color:#46aaff;
+    font-size:52.6px;
+    font-weight:645;
+}
+.container .row .my-auto .mt-4 .flex-column h5{
+    color:#46aaff;
+    font-weight:645;
+
+}
+.section_gap{
+    /* margin-bottom: 10px;
+    margin-top: 30px; */
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+.section_gap .container .text-center .text-purple{
+    color:#46aaff;
+    font-weight:645;
+
+}
+.section_gap .container .text-center .text-blue{
+    color:#09216c;
+    font-size:52.6px;
+    font-weight:645;
+}
+
+/* Why Chose DUMB Section */
+.section_gap2 .container .row .text-blue{
+    color:#09216c;
+    font-size:52.6px;
+    font-weight:645;
+}
+.section_gap2 .container .row .text-purple{
+    color:#46aaff;
+    font-weight:645;
+    font-size:52.6px;
+
+}
+

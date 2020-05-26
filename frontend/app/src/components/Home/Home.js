@@ -6,10 +6,9 @@ import pic2 from './img1.png';
 import pic3 from "./pic1.JPG";
 import logo1 from './elcart.png';
 import logo2 from "./MP.png";
-
-
-
-
+import Cards from "../Home/Cards/cards";
+import logos from "./Logoss.png";
+import HowIttWorks from "./HowItWorks/Works";
 
 
 export default class Home extends Component{
@@ -34,6 +33,8 @@ export default class Home extends Component{
               </ul>
             </div>
             {/* This is the end of Stikcy Icons */}
+
+
             {/* -------------The Main Banner ----------------------*/}
             <section class="banner-section mb-sm-5">
 
@@ -45,7 +46,7 @@ export default class Home extends Component{
                           <h3 class="text-primary font-nm mb-2 mb-sm-3">
                               Solve Problems &amp; build your Mind,<br></br> Work out &amp; Build Your Body
                           </h3>
-                          <img width="400" class="img-fluid board-logos mb-3 imglogos" alt="Logos to be made and put" src=''/>
+                          <img width="400" class="img-fluid board-logos mb-3 imglogos" alt="Logos to be made and put" src={logos}/>
                           <div>
                               <a class="btn btn-banner d-none d-sm-inline-block" href="#">learn more</a>
                               <a class="btn btn-banner d-inline-block d-sm-none" href="#">free trial</a>
@@ -57,20 +58,59 @@ export default class Home extends Component{
                   </div>
               </div>
           </section>
-          {/*------------ End of Banner Section------- */} 
-          {/*-------------------- The Three fliping Cards---------------- */}
-          {/* -----------The End of Fliping Cards------------------------ */}
+          {/*------------ End of Banner Section------- */}
+          {/* -----------The Cards------------------------ */}
+          <div className="container">
+              <div className="row">
+                  <div className="col-md-4">
+                      <Cards name="Body" imgid={pic1}/>
+                  </div>
+                  <div className="col-md-4">
+                      <Cards name="Mind" imgid={pic2}/>
+                  </div>
+                  <div className="col-md-4">
+                      <Cards name="Soul" imgid={pic3}/>
+                  </div>
+
+              </div>
+          </div>
+          
+          {/*-------------------- The End Three Cards---------------- */}
+          {/* ---------------How it works Portion-------------------- */}
+          <HowIttWorks />
+          
+          {/* ---------------How it works Portion-------------------- */}
+
+          {/* ---------------Why Chose DUMB -------------------- */}
+
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+          {/* --------------------The end of why Chose DUMB--------------- */}
+
+
+
+
+
+
+
+
+
+  
 
 
           </React.Fragment> 
-
-            // <Container>
-            //     <Row>
-            //         <Col>
-            //         <h1>Hello word</h1>
-            //         </Col>
-            //     </Row>
-            // </Container>
         );
     }
 }

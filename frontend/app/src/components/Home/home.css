@@ -30,6 +30,8 @@
   /* ---------------Banner Css */
   .banner-section .container{
       color: white;
+      padding-bottom: 8px;
+      
       
   }
   .banner-section h1{
