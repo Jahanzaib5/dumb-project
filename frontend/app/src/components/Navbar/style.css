@@ -3,25 +3,26 @@
   background: #fff;
   opacity: 0.9;
   border-bottom: 1px solid #46aaff;
-  transition: 0.3s ease;
+  transition: 0.6s ease;
   z-index: 10;
+  margin-top: -0.5%;
 }
 
 #nav {
-    transition: 0.3s ease;
+    transition: 0.6s ease;
+    margin-bottom: 4%;
 }
 
 .hooman {
   justify-content: center;
   width: 100%;
-  -webkit-transition: all 0.3s ease-in;
-  -moz-transition: all 0.3s ease-in;
-  -o-transition: all 0.3s ease-in;
-  -ms-transition: all 0.3s ease-in;
-  transition: all 0.3s ease-in;
+  -webkit-transition: all 0.6s ease-in;
+  -moz-transition: all 0.6s ease-in;
+  -o-transition: all 0.6s ease-in;
+  -ms-transition: all 0.6s ease-in;
+  transition: all 0.6s ease-in;
   border-bottom: 1px solid #46aaff;
   z-index: 10;
-  margin-bottom: 2%;
 }
 
 .ml-auto {
@@ -62,14 +63,14 @@
 
 .hidden {
   display: none;
-  transition: 0.3s ease;
+  transition: 0.6s ease;
 }
 
 .hide {
     height: 20px;
     text-align: right;
     background-color: #70b8f7;
-    transition: 0.3s ease;
+    transition: 0.6s ease;
 
 }
 
@@ -78,5 +79,5 @@
     font-weight: 350;
     margin-right: 15%;
     color: white;
-    transition: 0.3s ease;
+    transition: 0.6s ease;
 }
