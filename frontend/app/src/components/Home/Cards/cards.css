@@ -7,13 +7,7 @@
   margin-bottom: 20px;
   border-radius: solid 20px;
 }
-.container .card:hover {
-  background-color: #fff;
-  border-color: #00ffc8;
-  color: #00ffc8;
-  cursor: pointer;
-  transition: 0.4s ease;
-}
+
 .container .card-title {
   font-size: 32.6px;
   font-weight: 645;

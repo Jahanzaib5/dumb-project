@@ -35,10 +35,11 @@
       
   }
   .banner-section h1{
-    font-size: 52.6px;
+    font-size: 55.6px;
     font-weight: 645;
     color: #46aaff;
     text-align: start;
+    margin-bottom: 3%;
   }
   .banner-section h3{
     font-size: 21.3px;
@@ -46,17 +47,17 @@
   }
   
   .banner-section a{
-    color:white;
-    font-size: 16px;
-    font-weight: 700;
-    border: 1px solid #00ffc8;
-    background-color: #00ffc8;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    border: 1px solid #46aaff;
+    background-color: #46aaff;
   }
   
   .banner-section a:hover {
     background-color: #fff;
-    border-color:#00ffc8;
-    color:#00ffc8;
+    border-color: #46aaff;
+    color: #46aaff;
   }
   .banner-section .imgBanner{
   

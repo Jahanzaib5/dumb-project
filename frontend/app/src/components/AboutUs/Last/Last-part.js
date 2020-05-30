@@ -15,7 +15,7 @@ export default class Last extends Component {
               ready to get started? simply fill out the form to register for
               our exclusive free trial!
             </p>
-            <Button variant="outline-info">register now</Button>{" "}
+            <a href="Register"><Button variant="outline-info">register now</Button>{" "}</a>
           </Col>
         </Row>
       </Container>

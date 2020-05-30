@@ -28,7 +28,7 @@ export default class LearMore extends Component {
               is our name – Drive Ur Mind Bravely, there is always something
               that you need to know.
             </p>
-            <Button variant="outline-info">free trial</Button>{" "}
+            <a href="Register"><Button variant="outline-info" >free trial</Button></a>
           </Col>
           <Col xs={12} md={6}>
             <Image src={Pic1} height="auto" alt="Picture" style={{position:"relative"}}/>

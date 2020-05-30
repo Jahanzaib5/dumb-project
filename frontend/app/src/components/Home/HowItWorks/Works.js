@@ -7,7 +7,7 @@ class Works extends Component {
         return (
             <div>
                 {/* How it works Portion */}
-                <section class="section_gap how-it-works-section" id="how-it-works">                 
+                <section class="section_gap how-it-works-section" id="how-it-works" style={{marginBottom:'5%'}}>                 
                     <div class="container">                     
                         <div class="row">
                             <div class="col-md-6 mb-4 mb-sm-auto">
@@ -53,7 +53,8 @@ class Works extends Component {
                 </section>
                  {/* -------------X-------How it works Portion ---------X---------------*/}
                 {/* -----------------------Information- Statistics ------------------------*/}
-                <section class="section_gap d-none d-sm-block">
+                <hr/>
+                <section class="section_gap d-none d-sm-block" id="pointer">
                     <div class="container">
                         <div class="row text-center" id="counter">
                             <div class="col-md-4">
@@ -71,24 +72,25 @@ class Works extends Component {
                         </div>
                     </div>
                 </section>
+                <hr/>
                 {/* ----------X-------------Information- Statistics ----------X--------------*/}
                 {/*----------------------------- Why Chose DUMB Section ---------------------------- */}
 
-                <section class="section_gap2">
+                <section class="section_gap2"  style={{marginTop:'5%', marginBottom:'2%'}}>
                     <div class="container">
                         <div class="row ">
                             <div class="col-md-12 ">
                                 <h2 class="title"><span class="text-purple">why choose </span>
-                                    <span class="text-blue">DUMB</span>
+                                    <span class="text-blue">DUMB?</span>
                                 </h2>
                                 <p class="h5 mt-4">
-                                    tutoria is not just an e-learning platform, it is the gateway towards securing a
+                                    DUMB is not just an e-learning platform, it is the gateway towards securing a
                                     brighter future for your academic and professional life.
                                 </p>
                             </div>
                         </div>
 
-                        <div class="row mt-4 feature-section">
+                        <div class="row mt-4 feature-section" >
                             <div class="col-md-6">
                                 <div class="d-flex justify-content-between mb-3">
                                     <div class="mr-sm-5 mr-3">

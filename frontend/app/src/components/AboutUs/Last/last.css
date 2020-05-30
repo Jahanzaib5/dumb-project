@@ -30,4 +30,5 @@
 .last Button:hover {
   background-color: #fff;
   color: #46aaff;
+  border: 1px solid #46aaff;
 }
