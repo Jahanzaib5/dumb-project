@@ -18,7 +18,7 @@ class Works extends Component {
         return (
             <div>
                 {/* How it works Portion */}
-                <section class="section_gap how-it-works-section" id="how-it-works">                 
+                <section class="section_gap how-it-works-section" id="how-it-works" style={{marginBottom:'5%'}}>                 
                     <div class="container">                     
                         <div class="row">
                             <div class="col-md-6 mb-4 mb-sm-auto">
@@ -64,7 +64,8 @@ class Works extends Component {
                 </section>
                  {/* -------------X-------How it works Portion ---------X---------------*/}
                 {/* -----------------------Information- Statistics ------------------------*/}
-                <section class="section_gap d-none d-sm-block">
+                <hr/>
+                <section class="section_gap d-none d-sm-block" >
                     <div class="container">
                         <div class="row text-center" id="counter">
                             <div class="col-md-4">
@@ -82,9 +83,10 @@ class Works extends Component {
                         </div>
                     </div>
                 </section>
+                <hr/>
                 {/* ----------X-------------Information- Statistics ----------X--------------*/}
                 {/*----------------------------- Why Chose DUMB Section ---------------------------- */}
-                <section class="section_gap2">
+                <section class="section_gap2" style={{marginTop:'8%'}}>
                     <div class="container">
                         <div class="row ">
                             <div class="col-md-12 ">
@@ -177,7 +179,7 @@ class Works extends Component {
 
                 {/*-----------------X------------ Why Chose DUMB Section --------X-------------------- */}
                 {/* -----------------Get Assistance--------------------------------- */}
-                <section class="section_gap3">
+                <section class="section_gap3" style={{margin:"6%"}}>
                     <div class="container">
                         <div class="row">
                             <div class="col-lg-6 col-md-4 my-auto">
@@ -219,7 +221,6 @@ class Works extends Component {
                         src={s2}
                         alt="Third slide"
                         />
-
                         <Carousel.Caption>
                         <h3>Second slide label</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
@@ -231,7 +232,6 @@ class Works extends Component {
                         src={s3}
                         alt="Third slide"
                         />
-
                         <Carousel.Caption>
                         <h3>Third slide label</h3>
                         <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
@@ -242,7 +242,7 @@ class Works extends Component {
                 
                 {/* ---------X--------Words from Mentors-----------X---------------------- */}
                 {/* -----------------Blogs--------------------------------- */}
-                <section class="section_gap4">
+                <section class="section_gap4" style={{marginBottom:"3%"}}>
 
                     <div class="container">
                         <div class="row">

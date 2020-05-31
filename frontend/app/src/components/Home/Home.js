@@ -61,7 +61,7 @@ export default class Home extends Component{
           </section>
           {/*------------ End of Banner Section------- */}
           {/* -----------The Cards------------------------ */}
-          <div className="container">
+          <div className="container" style={{marginTop:"10%", marginBottom:'5%'}}>
               <div className="row">
                   <div className="col-md-4">
                       <Cards name="Body" imgid={pic1}/>
@@ -75,6 +75,8 @@ export default class Home extends Component{
 
               </div>
           </div>
+          <br/>
+          <br/>
           
           {/*-------------------- The End Three Cards---------------- */}
           {/* ---------------How it works Portion-------------------- */}

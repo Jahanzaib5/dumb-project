@@ -1,25 +1,12 @@
-body{
-    padding-top: 100px;
-    background-color: blueviolet;
-    
-  }
+
   .container .card{
-    width: max-content;
     text-decoration: none;
     font-size: 14px;
     font-weight: 600;
     border: 1px solid #46aaff;
-    margin-top: 10px;
-    margin-bottom: 20px;
     border-radius: solid 20px;    
   }
-  .container .card:hover {
-    background-color: #fff;
-    border-color: #00ffc8;
-    color: #00ffc8;
-    cursor: pointer;
-    transition: 0.4s ease;
-  }
+ 
   .container .card-title{
     font-size: 32.6px;
     font-weight: 645;
