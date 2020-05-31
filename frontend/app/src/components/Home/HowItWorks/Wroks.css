@@ -1,3 +1,7 @@
+.container .row{
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
 
 .container .row .col-md-6 .position-relative .img{
     vertical-align: middle;
@@ -79,4 +83,52 @@
     font-size:52.6px;
 
 }
+.section_gap3 .container .row .text-blue{
+    color:#09216c;
+    font-weight:645;
+    font-size:52.6px;
+
+}
+.section_gap3 .container .row .text-pink{
+    color:#fa0061;
+    font-weight:645;
+    font-size:52.6px;
+
+}
+.section_gap3 .container .row .btn{
+    color:white;
+    font-size: 16px;
+    font-weight: 700;
+    border: 1px solid #fa0061;
+    background-color: #fa0061;
+    
+}
+.section_gap3 .container .row .btn:hover{
+    background-color: #fff;
+    border-color:#00ffc8;
+    color:#00ffc8;
+}
+.section_gap4 .container .row .btn{
+    color:white;
+    font-size: 16px;
+    font-weight: 700;
+    border: 1px solid #fa0061;
+    background-color: #fa0061;
+
+}
+.section_gap4 .container .row .btn:hover{
+    background-color: #fff;
+    border-color:#00ffc8;
+    color:#00ffc8;
+}
+
+.section_gap4 .container .row .text-pink{
+    color:#fa0061;
+    font-weight:645;
+    font-size:52.6px;
+}
+.section_gap4 .container .row .form-group input{
+    background-color: #c3fcef;
+}
+
 
