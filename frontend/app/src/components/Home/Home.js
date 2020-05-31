@@ -49,7 +49,7 @@ export default class Home extends Component{
                           </h3>
                           <img width="400" class="img-fluid board-logos mb-3 imglogos" alt="Logos to be made and put" src={logos}/>
                           <div>
-                              <a class="btn btn-banner d-none d-sm-inline-block" href="#">learn more</a>
+                              <a class="btn btn-banner d-none d-sm-inline-block" href="#pointer">learn more</a>
                               <a class="btn btn-banner d-inline-block d-sm-none" href="#">free trial</a>
                           </div>
                       </div>

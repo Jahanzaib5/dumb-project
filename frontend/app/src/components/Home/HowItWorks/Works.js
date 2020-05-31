@@ -65,7 +65,7 @@ class Works extends Component {
                  {/* -------------X-------How it works Portion ---------X---------------*/}
                 {/* -----------------------Information- Statistics ------------------------*/}
                 <hr/>
-                <section class="section_gap d-none d-sm-block" >
+                <section class="section_gap d-none d-sm-block" id="pointer">
                     <div class="container">
                         <div class="row text-center" id="counter">
                             <div class="col-md-4">
