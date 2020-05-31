@@ -40,12 +40,9 @@
 
 
 .left button {
-    font-family: Geneva, Arial, Helvetica, sans-serif;
     margin-top: 20px;
-    height: 30px;
     width: 100px;
     background-color: #46aaff;
-    border-radius: 5px;
     font-weight: 400px;
     color: white;
 }
@@ -53,7 +50,6 @@
 #submit{
     display: flex;
     align-items: baseline;
-    justify-content: start;
 }
 
 .left button:hover {
